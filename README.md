@@ -1,7 +1,7 @@
 # AWS CloudFormation Labs
 
 A collection of CloudFormation templates built and debugged in a real AWS account,
-originally based on Animals4Life (A4L) course material and migrated from Amazon
+originally based on Cantrill course material and migrated from Amazon
 Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
 
 ## Templates
