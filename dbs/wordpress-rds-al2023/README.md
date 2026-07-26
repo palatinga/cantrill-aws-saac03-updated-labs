@@ -1,7 +1,7 @@
 # WordPress + RDS for MySQL (AL2023)
 
 WordPress on a single EC2 instance, with Amazon RDS for MySQL as a managed DB
-backend. See the [repo-level README](../README.md) for shared architecture,
+backend. See the [repo-level README](../../README.md) for shared architecture,
 migration notes, and both fixed bugs — this file only covers what's specific to
 this variant.
 

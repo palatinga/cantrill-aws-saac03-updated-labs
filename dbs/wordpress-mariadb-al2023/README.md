@@ -1,9 +1,9 @@
 # WordPress + MariaDB on EC2 (AL2023)
 
 WordPress on one EC2 instance, MariaDB 10.5 running on a second, separate EC2
-instance as the DB backend. See the [repo-level README](../README.md) for shared
-architecture, migration notes, and both fixed bugs — this file only covers what's
-specific to this variant.
+instance as the DB backend. See the [repo-level README](../../README.md) for
+shared architecture, migration notes, and both fixed bugs — this file only covers
+what's specific to this variant.
 
 ## What's different about this variant
 
