@@ -10,6 +10,7 @@ Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
 |---|---|
 | [`wordpress-mariadb-al2023/`](./wordpress-mariadb-al2023) | WordPress on EC2 + a separate EC2 instance running MariaDB as the DB backend |
 | [`wordpress-rds-al2023/`](./wordpress-rds-al2023) | WordPress on EC2 + Amazon RDS for MySQL as the managed DB backend |
+| [`wordpress-aurora-al2023/`](./wordpress-aurora-al2023) | WordPress on EC2 + an Amazon Aurora MySQL cluster (writer + reader) as the DB backend |
 
 Each folder has its own README covering what's specific to that variant. This file
 covers what's shared across all of them.
@@ -76,4 +77,4 @@ CloudFormation rolled the stack back and destroyed the evidence.
 ## Usage
 
 Each template folder includes its own `aws cloudformation create-stack` example
-with the parameters specific to that variant. 
+with the parameters specific to that variant.
