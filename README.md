@@ -1,4 +1,4 @@
-# AWS CloudFormation Labs
+# Cantrill AWS SAA-C03 - Hands-On Labs
 
 A collection of CloudFormation templates built and debugged in a real AWS account,
 originally based on Cantrill course material and migrated from Amazon
