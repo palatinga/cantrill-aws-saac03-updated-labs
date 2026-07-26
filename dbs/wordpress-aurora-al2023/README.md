@@ -1,5 +1,7 @@
 # WordPress + Aurora MySQL Cluster (AL2023)
 
+# Warning: this *won't* work you're using _free-tier AWS account_
+
 WordPress on a single EC2 instance, with an Amazon Aurora MySQL cluster (writer +
 reader) as the DB backend. See the [repo-level README](../../README.md) for shared
 architecture, migration notes, and both fixed bugs — this file only covers what's
