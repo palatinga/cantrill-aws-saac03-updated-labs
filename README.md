@@ -1,16 +1,29 @@
-# Cantrill AWS SAA-C03 - Hands-On Labs
+# Cantrill AWS SAA-C03 — Hands-On Labs
 
-A collection of CloudFormation templates built and debugged in a real AWS account,
-originally based on Cantrill course material and migrated from Amazon
-Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
+A collection of hands-on labs built and debugged in a real AWS account, following
+Adrian Cantrill's AWS Certified Solutions Architect – Associate (SAA-C03) course.
+Organized by topic as the course progresses, starting with database deployment
+patterns via CloudFormation, based on Animals4Life (A4L) course material and
+migrated from Amazon Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
 
-## Templates
+## Topics
+
+- **`dbs/`** — WordPress + database backend variants (CloudFormation)
+- **`efs/`** — Elastic File System labs (CloudFormation)
+
+## Templates in `dbs/`
 
 | Folder | What it deploys |
 |---|---|
 | [`dbs/wordpress-mariadb-al2023/`](./dbs/wordpress-mariadb-al2023) | WordPress on EC2 + a separate EC2 instance running MariaDB as the DB backend |
 | [`dbs/wordpress-rds-al2023/`](./dbs/wordpress-rds-al2023) | WordPress on EC2 + Amazon RDS for MySQL as the managed DB backend |
 | [`dbs/wordpress-aurora-al2023/`](./dbs/wordpress-aurora-al2023) | WordPress on EC2 + an Amazon Aurora MySQL cluster (writer + reader) as the DB backend |
+
+## Templates in `efs/`
+
+| Folder | What it deploys |
+|---|---|
+| [`efs/two-instance-al2023/`](./efs/two-instance-al2023) | Base VPC + two plain EC2 instances in separate AZs, ready to mount an EFS file system (no EFS resource included yet) |
 
 Each folder has its own README covering what's specific to that variant. This file
 covers what's shared across all of them.
@@ -77,4 +90,4 @@ CloudFormation rolled the stack back and destroyed the evidence.
 ## Usage
 
 Each template folder includes its own `aws cloudformation create-stack` example
-with the parameters specific to that variant.
+with the parameters specific to that variant. 
