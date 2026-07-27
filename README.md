@@ -3,8 +3,7 @@
 A collection of hands-on labs built and debugged in a real AWS account, following
 Adrian Cantrill's AWS Certified Solutions Architect – Associate (SAA-C03) course.
 Organized by topic as the course progresses, starting with database deployment
-patterns via CloudFormation, based on Animals4Life (A4L) course material and
-migrated from Amazon Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
+patterns via CloudFormation, migrated from Amazon Linux 2 (AL2) to Amazon Linux 2023 (AL2023).
 
 ## Topics
 
